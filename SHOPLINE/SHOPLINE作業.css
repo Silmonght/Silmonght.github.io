@@ -18,7 +18,7 @@ summary, time, mark, audio, video
 }
 
 *{
-    box-sizing: border-boxd;
+    box-sizing: border-box;
     line-height: calc(6px + 2ex + 6px);
 }
 
@@ -95,9 +95,9 @@ header{
 }
 
 .btn{
-    background: none !important;
+    background: none ;
     outline: unset;
-    box-shadow: unset !important;
+    box-shadow: unset ;
     cursor: pointer;
     border: 0;
 }
@@ -109,7 +109,7 @@ header{
 
 button{
     appearance: auto;
-    writing-mode: horizontal-tb !important;
+    writing-mode: horizontal-tb ;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
@@ -254,13 +254,13 @@ section.home-kv{
 
 .intro-title{
     margin-bottom: 120px;
-    text-align: center!important;
-    justify-content: center!important;
-    flex-direction: column!important;
-    display: flex!important;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 .intro-title h2{
-    margin-bottom: 1.5rem!important;
+    margin-bottom: 1.5rem;
     font-weight: bolder;
     line-height: 1.5;
     font-size: calc(1.325rem + .9vw);
@@ -270,7 +270,7 @@ section.home-kv{
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    text-align: center!important;
+    text-align: center;
 }
 .intro-title p{
     font-size: 1.1em;
@@ -282,15 +282,15 @@ section.home-kv{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    text-align: center!important;
+    text-align: center;
 }
 .intro-main1,
 .intro-main2{
     padding-bottom: 100px;
     margin-bottom: 100px;
     border-bottom: 1px solid #E0E5E9;
-    flex-direction: row!important;
-    display: flex!important;
+    flex-direction: row;
+    display: flex;
 }
 
 .intro-main1 div,
@@ -301,7 +301,7 @@ section.home-kv{
 
 .intro-main1 h2,
 .intro-main2 h2{
-    margin-bottom: 3rem!important;
+    margin-bottom: 3rem;
     font-weight: bolder;
     line-height: 1.5;
     font-size: calc(1.325rem + .9vw);
@@ -316,7 +316,7 @@ section.home-kv{
 .intro-main2 p{
     font-size: 1.1em;
     line-height: 1.8;
-    margin-bottom: 1.5rem!important;
+    margin-bottom: 1.5rem;
     margin-top: 0;
     display: block;
     margin-block-start: 1em;
@@ -336,10 +336,10 @@ section.home-kv{
     list-style: none;
     padding: 0;
     list-style: none;
-    margin-bottom: 1.5rem!important;
-    flex-wrap: wrap!important;
-    flex-direction: row!important;
-    display: flex!important;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
     margin:5px;
     margin-top: 0;
     margin-block-start: 1em;
@@ -489,8 +489,8 @@ section.home-kv{
     padding-bottom: 25px;
 }
 .home-features h2{
-    text-align: center!important;
-    margin-bottom: 3rem!important;
+    text-align: center;
+    margin-bottom: 3rem;
     font-weight: bolder;
     line-height: 1.5;
     font-size: 2rem;
@@ -504,10 +504,10 @@ section.home-kv{
     list-style: none;
     padding: 0;
     line-height: calc(6px + 2ex + 6px);
-    margin-bottom: 1.5rem!important;
-    justify-content: center!important;
-    flex-wrap: wrap!important;
-    display: flex!important;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
     margin-top: 0;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -605,10 +605,10 @@ section.home-kv{
     list-style: none;
     border-bottom: 1px solid grey;
     padding: 0;
-    margin-bottom: 1.5rem!important;
-    justify-content: center!important;
-    flex-direction: row!important;
-    display: flex!important;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -653,8 +653,8 @@ li.click{
     height: 80px;
 }
 .owl-list-main{
-    flex-direction: row!important;
-    display: flex!important;
+    flex-direction: row;
+    display: flex;
 }
 .owl-list-main div{
     padding-right: 30px;
@@ -663,7 +663,7 @@ li.click{
     display: block;
 }
 .owl-list-main p{
-    margin-top: 1.5rem!important;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
 .owl-list-main a{
@@ -691,7 +691,7 @@ footer > div{
 .footer-map h2{
     color: #fff;
     line-height: 1.8;
-    margin-bottom: 3rem!important;
+    margin-bottom: 3rem;
     font-size: 2rem;
 }
 
@@ -730,9 +730,9 @@ footer > div{
     margin-bottom: 40px;
 }
 .footer-main-list{
-    justify-content: space-between!important;
-    flex-direction: row!important;
-    display: flex!important;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
 }
 
 .footer-list > div{
@@ -800,7 +800,7 @@ footer > div{
 .buttom-left{
     list-style: none;
     padding: 0;
-    display: flex!important;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -935,7 +935,7 @@ input[type="email" i] {
 }
 
 input {
-    writing-mode: horizontal-tb !important;
+    writing-mode: horizontal-tb ;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
