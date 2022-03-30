@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+}
+
+.box{
+    width: 1000px;
+    height: 800px;
+    margin: 100px auto 100px;
+}
+
+.title-left{
+    width: 360px;
+    color: #fff;
+}
+
+.title-left h2{
+    background-color: rgb(200, 10, 10);
+    font-size: 3rem;
+    text-align: left;
+}
+
+.title-left-number{
+    writing-mode: vertical-lr;
+    font-size: 120px;
+    font-weight: 100;
+    vertical-align: middle;
+    position: relative;
+    right: 25px;
+}
+.title-left-text{
+    position: relative;
+    right: 50px;
+}
+
+.titleword{
+    background-color: black;
+    padding: 10px;
+}
+
+.titleword h3{
+    font-size: 1.5rem;
+}
+
+.titleword p{
+    margin: 10px 0px 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.img-left{
+    position: relative;
+    left: 180px;
+    bottom: 154px;
+    z-index: -1;
+}
+
+.img-left::before{
+    content: url(https://www.toyota.com.tw/asset/img/tech_tnga/video-icon.png?73425069);
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+
+.silver-left{
+    width: 400px;
+    height: 260px;
+    background-color: rgba(192,192,192,0.2);
+    position: relative;
+    left: 550px;
+    bottom: 670px;
+    z-index: -2;
+}
+
+.footer-left{
+    width: 600px;
+    height: auto;
+    padding: 20px 30px 30px 30px;
+    background-color: rgba(192,192,192);
+    position: relative;
+    left: 100px;
+    bottom: 460px;
+}
+
+.footer-left h4{
+    display: flex;
+    color: rgb(200, 0, 0);
+}
+
+.footer-left hr{
+    background-color: rgb(200, 0, 0);
+    width: 400px;
+    height: 1px;
+    margin: 10px;
+}
+
+.footer-text{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-text li span{
+    display: inline-block;
+    padding: 5px 10px 5px;
+    background-color: black;
+    color: #FFF;
+}
+
+.footer-text li p{
+    line-height: 1.5;
+}
+
+.footer-text li p::before{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    position: relative;
+    top: -5px;
+    background-color: red;
+}
+
+.title-right{
+    width: 350px;
+    color: #fff;
+    position: relative;
+    left: 650px;
+}
+
+.title-right h2{
+    background-color: rgb(200, 10, 10);
+    font-size: 3rem;
+}
+
+.title-right-text{
+    position: relative;
+    left: 50px;
+}
+
+.title-right-number{
+    writing-mode: vertical-lr;
+    font-size: 120px;
+    font-weight: 100;
+    vertical-align: middle;
+    position: relative;
+    left: 30px;
+}
+
+.img-right{
+    position: relative;
+    left: 50px;
+    bottom: 154px;
+    z-index: -1;
+}
+
+.img-right::before{
+    content: url(https://www.toyota.com.tw/asset/img/tech_tnga/video-icon.png?73425069);
+    position: absolute;
+    top: 200px;
+    left: -10px;
+}
+
+.silver-right{
+    width: 530px;
+    height: 400px;
+    background-color: rgba(192,192,192,0.2);
+    position: relative;
+    left: 300px;
+    bottom: 670px;
+    z-index: -2;
+}
+
+.footer-right{
+    width: 600px;
+    height: auto;
+    padding: 20px 30px 30px 30px;
+    background-color: rgba(192,192,192);
+    position: relative;
+    left: 340px;
+    bottom: 600px;
+}
+
+.footer-right h4{
+    display: flex;
+    color: rgb(200, 0, 0);
+}
+
+.footer-right hr{
+    background-color: rgb(200, 0, 0);
+    width: 400px;
+    height: 1px;
+    margin: 10px;
+}
+
+.img-left-03{
+    position: relative;
+    left: 180px;
+    bottom: 178px;
+    z-index: -1;
+}
+.img-left-03::before{
+    content: url(https://www.toyota.com.tw/asset/img/tech_tnga/video-icon.png?73425069);
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+
+.silver-left-03{
+    width: 400px;
+    height: 260px;
+    background-color: rgba(192,192,192,0.2);
+    position: relative;
+    left: 550px;
+    bottom: 718px;
+    z-index: -2;
+}
+
+.footer-left-03{
+    width: 600px;
+    height: auto;
+    padding: 20px 30px 30px 30px;
+    background-color: rgba(192,192,192);
+    position: relative;
+    left: 100px;
+    bottom: 460px;
+}
+
+.footer-left-03 h4{
+    display: flex;
+    color: rgb(200, 0, 0);
+}
+
+.footer-left-03 hr{
+    background-color: rgb(200, 0, 0);
+    width: 400px;
+    height: 1px;
+    margin: 10px;
+}
+
+.img-right-04{
+    position: relative;
+    left: 50px;
+    bottom: 178px;
+    z-index: -1;
+}
+
+.silver-right-04{
+    width: 530px;
+    height: 400px;
+    background-color: rgba(192,192,192,0.2);
+    position: relative;
+    left: 300px;
+    bottom: 694px;
+    z-index: -2;
+}
+
+.footer-right-04{
+    width: 600px;
+    height: auto;
+    padding: 20px 30px 30px 30px;
+    background-color: rgba(192,192,192);
+    position: relative;
+    left: 340px;
+    bottom: 600px;
+}
+
+.footer-right-04 h4{
+    display: flex;
+    color: rgb(200, 0, 0);
+}
+
+.footer-right-04 hr{
+    background-color: rgb(200, 0, 0);
+    width: 400px;
+    height: 1px;
+    margin: 10px;
+}
