@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HWK1</title>
+    
+</head>
+<body>
+    <div class="main">
+        <img id="image1" src="" alt="">
+        <h2 id="text1"></h2>
+        <h2 id="text2"></h2>
+        <h2 id="text3"></h2>
+        <h2 id="text4"></h2>
+    </div>
+    
+    
+    <script>
+        
+        let text1 = document.getElementById("text1");
+        let text2 = document.getElementById("text2");
+        let text3 = document.getElementById("text3");
+        let text4 = document.getElementById("text4");
+        let img = document.getElementById("image1");
+
+        let name = "姓名: 林秉謙";
+        let mail = "信箱: ewq9506811@gmail.com";
+        let school = "學校: 中華大學";
+        let interest = "興趣: 玩遊戲";
+        const movieUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6-lzisloFofiJAy4ckDrKip62_Yb0oPyHMw&usqp=CAU";
+        
+
+        text1.innerText = name;
+        text2.innerText = mail;
+        text3.innerText = school;
+        text4.innerText = interest;
+        img.src = movieUrl;
+
+        const imgArray = [
+            "https://picsum.photos/300/200/?random=10",
+            "https://picsum.photos/300/200/?random=20",
+            "https://picsum.photos/300/200/?random=30",
+        ];
+
+        imgArray.forEach(
+            (url,index)=>{
+                document.write(`<img src = ${url}>`);
+        }
+        );
+
+    </script>
+</body>
+</html>
