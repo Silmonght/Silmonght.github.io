@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_window{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    
+    border: 2px solid red;
+}
+
+.reset{
+    width: 460px;
+    height: 50px;
+    margin: 10px 20px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset:hover{
+    background-color: skyblue;
+    color: black;
+}
+
+.target{
+    width: 456px;
+    height: 50px;
+    margin: 10px 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guess{
+    width: 456px;
+    height: 50px;
+    margin: 10px 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inter{
+    width: 456px;
+    height: 300px;
+    margin: 10px 20px;
+    border: 2px solid black;
+    
+}
+
+.row{
+    margin: 3px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number:hover{
+    background-color: silver;
+    color: black;
+}
+
+.clear{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear:hover{
+    background-color: pink;
+    color: black;
+}
+
+.check{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check:hover{
+    background-color: lime;
+    color: black;
+}
+
+
